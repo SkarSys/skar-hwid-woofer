@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main Souce">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Main Souce\Main">
+      <UniqueIdentifier>{1ca651f7-75c3-47ef-a2c0-ca93aae559d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Souce\Utils">
+      <UniqueIdentifier>{e24e1a03-0d49-4b6b-b114-1799130876bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Souce\Kernel">
+      <UniqueIdentifier>{9f3c0ff6-d5b0-4d14-9072-2906c556ce82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Souce\Auth">
+      <UniqueIdentifier>{641acb51-0967-4e3e-bc2b-1a13f8069e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Souce\Auth\Kh">
+      <UniqueIdentifier>{f40b7b7d-bd7a-4aba-b769-53b2c19d50d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver.h">
+      <Filter>Main Souce\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Main Souce\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Main Souce\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Main Souce\Auth\Kh</Filter>
+    </ClInclude>
+    <ClInclude Include="sk.h">
+      <Filter>Main Souce\Auth\Kh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main Souce\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="library_x64.lib">
+      <Filter>Main Souce\Auth\Kh</Filter>
+    </Library>
+    <Library Include="libcurl.lib">
+      <Filter>Main Souce\Auth\Kh</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
